@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np
 
 # ----- Loading Dataset into a DataFrame -----
-df = pd.read_csv('loan_approval_dataset.csv')
+df = pd.read_csv('data/loan_approval_dataset.csv')
 
 # ----- Initial Exploration of the Data -----
 print(df.shape)
@@ -21,8 +21,6 @@ print(df[' loan_status'].value_counts()*100/df[' loan_status'].count())
 print("Unique count in A:", df[' education'].nunique())
 print("Unique count in B:", df[' self_employed'].nunique())
 print("Unique count in C:", df[' loan_status'].nunique())
-
-
 
 # ----- One-hot encode the categorical features ----- 
 categorical_features = [' education', ' self_employed']
@@ -43,7 +41,7 @@ scaled_data = scaler.fit_transform(data_to_scale)
 print(scaled_data.shape)
 print(data_to_scale.columns)
 scaled_df = pd.DataFrame(scaled_data, columns= ['no_of_dependents', ' income_annum', ' loan_amount', ' loan_term', ' cibil_score', ' residential_assets_value', ' commercial_assets_value', ' luxury_assets_value', ' bank_asset_value'])
-print(scaled_df.head())
+# print(scaled_df.head())
 
 # ----- Check the standard deviation of the scaled features -----
 print(round(np.std(scaled_df[' income_annum']), 2))
@@ -54,4 +52,4 @@ print(scaled_data_combined.head())
 
 # ----- Reorder the columns so that the target variable is the first column and the loan_id is the last column -----
 scaled_data_reordered = scaled_data_combined.iloc[:, [13, 0, 9, 10, 12, 11, 1, 2, 3, 4, 5, 6, 7, 8, 14]]
-print(scaled_data_reordered.head())
+print(list(scaled_data_reordered.columns))

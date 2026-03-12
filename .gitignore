@@ -1,7 +1,42 @@
-﻿venv/
+﻿# Python
 __pycache__/
-*.pyc
-*.pkl
-.ipynb_checkpoints/
-*.csv
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/.gitkeep
+
+# Model files (if too large, >100MB)
+# Uncomment these if your .pkl files are huge
+models/*.pkl
+models/*.npy
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Other
+*.log
+.env

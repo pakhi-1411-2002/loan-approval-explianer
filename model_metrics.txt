@@ -1,0 +1,17 @@
+Classification Report: 
+              precision    recall  f1-score   support
+
+           0       0.87      0.88      0.88       616
+           1       0.92      0.92      0.92      1007
+
+    accuracy                           0.91      1623
+   macro avg       0.90      0.90      0.90      1623
+weighted avg       0.91      0.91      0.91      1623
+
+Accuracy: 0.9051139864448552
+Precision (Approved): 0.9243781094527364
+Recall (Approved): 0.9225422045680238
+F1-score (Approved): 0.9234592445328031
+Precision (Rejected): 0.8737864077669902
+Recall (Rejected): 0.8766233766233766
+F1-score (Rejected): 0.8752025931928687
