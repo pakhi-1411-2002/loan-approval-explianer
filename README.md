@@ -2,8 +2,6 @@
 
 An interpretable machine learning system that predicts loan approvals and explains its decisions using SHAP (SHapley Additive exPlanations).
 
-![App Screenshot](screenshots/interface.png)
-
 ## 🎯 Project Overview
 
 This project demonstrates how to build transparency into AI systems. Instead of just outputting "Approved" or "Rejected," it shows **why** each decision was made by breaking down feature contributions.
@@ -23,13 +21,13 @@ This project demonstrates how to build transparency into AI systems. Instead of 
 ## 📸 Screenshots
 
 ### Prediction Interface
-![UI Preview](data/Screenshot 2026-03-12 084659.png)
+[[UI Preview]](https://github.com/pakhi-1411-2002/loan-approval-explianer/blob/main/data/Screenshot%202026-03-12%20084659.png)
 
 ### SHAP Waterfall Explanation
-![SHAP Waterfall](data/Screenshot 2026-03-12 085219.png)
+[[SHAP Waterfall]](https://github.com/pakhi-1411-2002/loan-approval-explianer/blob/main/data/Screenshot%202026-03-12%20085219.png)
 
 ### Plain-Language Explanation
-![Explanation Panel](data/Screenshot 2026-03-12 085234.png)
+[[Explanation Panel]](https://github.com/pakhi-1411-2002/loan-approval-explianer/blob/main/data/Screenshot%202026-03-12%20085234.png)
 
 ## 🛠️ Tech Stack
 
