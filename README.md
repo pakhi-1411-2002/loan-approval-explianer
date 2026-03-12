@@ -151,21 +151,6 @@ Base prediction: 0.62 (dataset average)
 = Final prediction: 0.84 (84% approval probability)
 ```
 
-## ⚠️ Limitations & Disclaimers
-
-This is a **portfolio project** demonstrating ML interpretability principles. It is **NOT**:
-
-- ❌ Production-ready banking software
-- ❌ Regulatory compliant
-- ❌ Bias-audited or fairness-guaranteed
-- ❌ Suitable for real lending decisions
-
-**It does NOT:**
-- Verify identity or pull real credit data
-- Handle fraud detection
-- Guarantee causal explanations (SHAP shows model behavior, not causality)
-- Replace human underwriters
-
 ## 🎓 Learning Outcomes
 
 Building this project taught me:
