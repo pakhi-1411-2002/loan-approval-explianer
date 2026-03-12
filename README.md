@@ -109,7 +109,7 @@ User Input → Preprocessing → Model Prediction → SHAP Explanation → Visua
 2. **Model Training**
    - Logistic Regression classifier
    - 80/20 train-test split
-   - 82% accuracy on test set
+   - 91% accuracy on test set
 
 3. **Explainability**
    - SHAP LinearExplainer for feature attribution
@@ -127,10 +127,10 @@ User Input → Preprocessing → Model Prediction → SHAP Explanation → Visua
 
 ## 📊 Model Performance
 
-- **Accuracy:** 82%
-- **Precision:** [Your precision]
-- **Recall:** [Your recall]
-- **F1 Score:** [Your F1]
+- **Accuracy:** 91%
+- **Precision:** 92.44%
+- **Recall:** 92.25%
+- **F1 Score:** 92.35%
 
 See `models/model_metrics.txt` for detailed metrics.
 
